@@ -19,12 +19,13 @@ import javax.faces.context.FacesContext;
 import javax.faces.convert.Converter;
 import javax.faces.convert.FacesConverter;
 
+
 @Named("productoController")
 @SessionScoped
 public class ProductoController implements Serializable {
 
-    @EJB
-    private ProductoFacadeLocal ejbFacade;
+
+    @EJB private ProductoFacadeLocal ejbFacade;
     private List<Producto> items = null;
     private Producto selected;
 
@@ -121,7 +122,7 @@ public class ProductoController implements Serializable {
         return getFacade().findAll();
     }
 
-    @FacesConverter(forClass = Producto.class)
+    @FacesConverter(forClass=Producto.class)
     public static class ProductoControllerConverter implements Converter {
 
         @Override
@@ -129,7 +130,7 @@ public class ProductoController implements Serializable {
             if (value == null || value.length() == 0) {
                 return null;
             }
-            ProductoController controller = (ProductoController) facesContext.getApplication().getELResolver().
+            ProductoController controller = (ProductoController)facesContext.getApplication().getELResolver().
                     getValue(facesContext.getELContext(), null, "productoController");
             return controller.getProducto(getKey(value));
         }
