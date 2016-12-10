@@ -57,6 +57,7 @@ public class ProductoController implements Serializable {
     }
 
     public void create() {
+        int pmd;
         persist(PersistAction.CREATE, ResourceBundle.getBundle("classes/Bundle").getString("ProductoCreated"));
         if (!JsfUtil.isValidationFailed()) {
             items = null;    // Invalidate list of items to trigger re-query.
