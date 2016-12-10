@@ -1,1 +1,1 @@
-# Implementacion basicasd de un proyecto Java EE con Maven,test
+# Implementacion basic de un proyecto Java EE con Maven,test
