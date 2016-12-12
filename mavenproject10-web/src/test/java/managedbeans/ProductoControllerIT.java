@@ -86,7 +86,7 @@ public class ProductoControllerIT {
         driver.findElement(By.id("ProductoCreateForm:codigoProducto")).clear();
         driver.findElement(By.id("ProductoCreateForm:codigoProducto")).sendKeys("cod1Selenium");
         driver.findElement(By.id("ProductoCreateForm:id")).clear();
-        driver.findElement(By.id("ProductoCreateForm:id")).sendKeys("3");
+        driver.findElement(By.id("ProductoCreateForm:id")).sendKeys("5");
         driver.findElement(By.id("ProductoCreateForm:j_idt53")).click();
         System.out.println("Test Finished");
         //Close the browser
