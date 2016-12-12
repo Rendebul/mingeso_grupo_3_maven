@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [managedbeans.ProductoControllerIT]" junit="true">
+  <test name="Command line test 2dde4de3-a124-44f3-83d8-1921008b1b22(failed)" junit="true">
+    <classes>
+      <class name="managedbeans.ProductoControllerIT">
+        <methods>
+          <include name="testSimple"/>
+        </methods>
+      </class> <!-- managedbeans.ProductoControllerIT -->
+    </classes>
+  </test> <!-- Command line test 2dde4de3-a124-44f3-83d8-1921008b1b22(failed) -->
+</suite> <!-- Failed suite [managedbeans.ProductoControllerIT] -->

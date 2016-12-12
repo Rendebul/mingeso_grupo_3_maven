@@ -148,7 +148,7 @@ public class ProductoControllerTest {
     @Test
     public void testGetProducto() {
         System.out.println("getProducto2");
-        Long id = Long.valueOf(1);
+        long id = 1;
         ProductoController instance = new ProductoController();
         Producto expResult = instance.getProducto(id);
         Producto result = instance.getProducto(id);
