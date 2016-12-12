@@ -80,15 +80,15 @@ public class ProductoControllerIT {
         driver.findElement(By.id("ProductoCreateForm:nombreAnunciante")).clear();
         driver.findElement(By.id("ProductoCreateForm:nombreAnunciante")).sendKeys("anunSelenium");
         driver.findElement(By.id("ProductoCreateForm:telefonoAnunciante")).clear();
-        driver.findElement(By.id("ProductoCreateForm:telefonoAnunciante")).sendKeys("1234Selenium");
+        driver.findElement(By.id("ProductoCreateForm:telefonoAnunciante")).sendKeys("1234");
         driver.findElement(By.id("ProductoCreateForm:precio")).clear();
-        driver.findElement(By.id("ProductoCreateForm:precio")).sendKeys("200Selenium");
+        driver.findElement(By.id("ProductoCreateForm:precio")).sendKeys("200");
         driver.findElement(By.id("ProductoCreateForm:codigoProducto")).clear();
         driver.findElement(By.id("ProductoCreateForm:codigoProducto")).sendKeys("cod1Selenium");
         driver.findElement(By.id("ProductoCreateForm:id")).clear();
-        driver.findElement(By.id("ProductoCreateForm:id")).sendKeys("2Selenium");
+        driver.findElement(By.id("ProductoCreateForm:id")).sendKeys("3");
         driver.findElement(By.id("ProductoCreateForm:j_idt53")).click();
-
+        System.out.println("Test Finished");
         //Close the browser
         //driver.quit();
     }
@@ -99,6 +99,7 @@ public class ProductoControllerIT {
         if (!"".equals(verificationErrorString)) {
         fail(verificationErrorString);
         }
+        System.out.println("After seleniumTest");
     }
 /*
     private boolean isElementPresent(By by) {

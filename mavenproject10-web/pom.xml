@@ -145,6 +145,13 @@
                         <additionalClasspathElement>${java.home}/lib/jfxrt.jar</additionalClasspathElement>
                     </additionalClasspathElements>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.maven.surefire</groupId>
+                        <artifactId>surefire-junit47</artifactId>
+                        <version>2.12</version>
+                    </dependency>
+                </dependencies>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
