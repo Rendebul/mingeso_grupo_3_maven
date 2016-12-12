@@ -19,11 +19,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  *
  * @author NicolasSotoPerez
  */
-public class ProductoControllerIT {
+public class ProductoControllerITest {
     private WebDriver driver;
     private String baseUrl;
     private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
+    
+    public ProductoControllerITest(){
+        
+    }
 
     @Before
     public void setUp() throws Exception {

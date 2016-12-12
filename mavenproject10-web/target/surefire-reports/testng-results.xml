@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="managedbeans.ProductoControllerIT" duration-ms="21969" started-at="2016-12-12T16:56:30Z" finished-at="2016-12-12T16:56:52Z">
+  <suite name="managedbeans.ProductoControllerIT" duration-ms="21128" started-at="2016-12-12T17:41:57Z" finished-at="2016-12-12T17:42:18Z">
     <groups>
     </groups>
-    <test name="Command line test cc0f54de-7535-489b-9fdf-2aa7495f807e" duration-ms="21969" started-at="2016-12-12T16:56:30Z" finished-at="2016-12-12T16:56:52Z">
+    <test name="Command line test 9b677331-74e8-4d8a-945c-772f6d62f253" duration-ms="21128" started-at="2016-12-12T17:41:57Z" finished-at="2016-12-12T17:42:18Z">
       <class name="managedbeans.ProductoControllerIT">
-        <test-method status="PASS" signature="testSimple()[pri:0, instance:testSimple(managedbeans.ProductoControllerIT)]" name="testSimple" duration-ms="21783" started-at="2016-12-12T13:56:30Z" finished-at="2016-12-12T13:56:52Z">
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:testSimple(managedbeans.ProductoControllerIT)]" name="testSimple" duration-ms="20937" started-at="2016-12-12T14:41:57Z" finished-at="2016-12-12T14:42:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSimple -->
       </class> <!-- managedbeans.ProductoControllerIT -->
-    </test> <!-- Command line test cc0f54de-7535-489b-9fdf-2aa7495f807e -->
+    </test> <!-- Command line test 9b677331-74e8-4d8a-945c-772f6d62f253 -->
   </suite> <!-- managedbeans.ProductoControllerIT -->
 </testng-results>
