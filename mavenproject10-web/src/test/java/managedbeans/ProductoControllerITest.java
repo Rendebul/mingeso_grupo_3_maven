@@ -32,7 +32,8 @@ public class ProductoControllerITest {
     @Before
     public void setUp() throws Exception {
         //File file = new File("E:\\Usach 2016\\2sem\\tingeso\\Herramientas\\seleniumDrivers\\geckodriver.exe");
-        File file = new File("E:/Usach 2016/2sem/tingeso/Herramientas/seleniumDrivers/geckodriver.exe");
+        //File file = new File("E:/Usach 2016/2sem/tingeso/Herramientas/seleniumDrivers/geckodriver.exe");
+        File file = new File("C:/geckodriver/geckodriver.exe");
         System.setProperty("webdriver.gecko.driver", file.getAbsolutePath());
         driver = new FirefoxDriver();
         baseUrl = "http://localhost:8080/";
