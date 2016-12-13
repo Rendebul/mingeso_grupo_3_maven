@@ -147,7 +147,7 @@ public class ProductoControllerTest {
     /**
      * Test of getProducto method, of class ProductoController.
      */
-    /*
+    
     @Test
     public void testGetProducto() {
         System.out.println("getProducto2");
@@ -159,5 +159,6 @@ public class ProductoControllerTest {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
-    */
+    
+    
 }
